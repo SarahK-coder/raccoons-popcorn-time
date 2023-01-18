@@ -1,0 +1,16 @@
+footer {
+    background-color: #333;
+    flex-basis: 50px;
+
+    /*ie10*/
+    -ms-flex-preferred-size: 50px;
+
+    /*center align of links*/
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content: space-around; /*or space-between*/
+    /*ie10*/
+    display: -ms-flexbox;
+    -ms-flex-align: center; /*vertical*/
+    -ms-flex-line-pack: distribute; /*or justify*/
+}
